@@ -1,0 +1,73 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+#first {
+  font-size: 25px;
+}
+.header {
+  background-color: #091426;
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.fa-tasks {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #f42a1f
+}
+
+
+#userinput, #enter {
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0;
+  
+}
+
+ul li {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  padding: 10px;
+  list-style-type: none;
+  margin: 0;
+}
+
+
+#myList {
+  background-color: #e0e2e5;
+  padding: 0;
+}
+
+/* Add a line through when clicked & change
+background color*/
+.done {
+  text-decoration: line-through;
+  background: #c92306
+}
+
+.delbtn {
+float: right;
+}
+
